@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "license": "ISC",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": ["lib"],
+  "scripts": {
+    "test": "node ./__tests__/server.test.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3",
+    "sequelize-auto": "^0.8.8",
+    "uuid": "^10.0.0"
+  }
+}
