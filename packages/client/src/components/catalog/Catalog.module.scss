@@ -1,0 +1,12 @@
+@import "styles/variables.scss";
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: $color-bg;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}

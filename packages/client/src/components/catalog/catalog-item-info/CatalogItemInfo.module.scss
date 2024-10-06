@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+  }
+  .bookInfo__description {
+    width: 70%;
+  }
+  .bookInfo__buy {
+    width: 30%;
+  }
+}
